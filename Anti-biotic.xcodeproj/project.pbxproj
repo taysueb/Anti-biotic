@@ -7,14 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6C4F6D1FD1D7CD006C6EF1 /* supermarket.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D6C4F6C1FD1D7CC006C6EF1 /* supermarket.ttf */; };
+		0D6C4F6F1FD1D824006C6EF1 /* bangna-new.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D6C4F6E1FD1D823006C6EF1 /* bangna-new.ttf */; };
+		0D6C4F751FD1DC14006C6EF1 /* ThaiSansNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D6C4F741FD1DC13006C6EF1 /* ThaiSansNeue-Regular.ttf */; };
+		0D6C4F771FD1F1E2006C6EF1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C4F761FD1F1E2006C6EF1 /* LoginViewController.swift */; };
+		0D6C4F791FD2BCDA006C6EF1 /* CreateNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C4F781FD2BCDA006C6EF1 /* CreateNewViewController.swift */; };
+		0D71E3421FD2C08000C90138 /* ThaiSansNeue-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D71E3411FD2C08000C90138 /* ThaiSansNeue-ExtraBold.ttf */; };
+		0D71E3441FD2C89F00C90138 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71E3431FD2C89F00C90138 /* FirstPageViewController.swift */; };
+		7A3FDAD21FD5568200BAAB42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FDAD11FD5568200BAAB42 /* GoogleService-Info.plist */; };
+		7A69D9B21FA9B0F800C15058 /* DLRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A69D9B01FA9B0EC00C15058 /* DLRadioButton.framework */; };
+		7A69D9B31FA9B0F800C15058 /* DLRadioButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A69D9B01FA9B0EC00C15058 /* DLRadioButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A69D9B61FA9BE7600C15058 /* summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A69D9B51FA9BE7600C15058 /* summary.swift */; };
+		7A69D9BE1FA9C27B00C15058 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A69D9BD1FA9C27B00C15058 /* historyViewController.swift */; };
+		7A69D9C01FA9C29200C15058 /* historyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A69D9BF1FA9C29200C15058 /* historyTableViewCell.swift */; };
 		7AD3EC2D1FA8545900ACE3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EC2C1FA8545900ACE3B1 /* AppDelegate.swift */; };
 		7AD3EC2F1FA8545900ACE3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EC2E1FA8545900ACE3B1 /* ViewController.swift */; };
 		7AD3EC321FA8545900ACE3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3EC301FA8545900ACE3B1 /* Main.storyboard */; };
 		7AD3EC341FA8545900ACE3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3EC331FA8545900ACE3B1 /* Assets.xcassets */; };
 		7AD3EC371FA8545900ACE3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3EC351FA8545900ACE3B1 /* LaunchScreen.storyboard */; };
+		7AD3EC3F1FA8D24700ACE3B1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EC3E1FA8D24700ACE3B1 /* Question.swift */; };
+		7AD3EC451FA8E67300ACE3B1 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EC431FA8E67300ACE3B1 /* DLRadioButton.m */; };
+		7AD3EC471FA8E7BD00ACE3B1 /* newAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EC461FA8E7BD00ACE3B1 /* newAccount.swift */; };
+		A16432D2459D4CA289A5BBC1 /* Pods_Anti_biotic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE8F8309E82BC0B2A2E0F13 /* Pods_Anti_biotic.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7A69D9B41FA9B0F800C15058 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7A69D9B31FA9B0F800C15058 /* DLRadioButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0D6C4F6C1FD1D7CC006C6EF1 /* supermarket.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = supermarket.ttf; path = "../../../../Downloads/supermarket-1-1/supermarket.ttf"; sourceTree = "<group>"; };
+		0D6C4F6E1FD1D823006C6EF1 /* bangna-new.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "bangna-new.ttf"; path = "../../../../Downloads/bangna-new.ttf"; sourceTree = "<group>"; };
+		0D6C4F741FD1DC13006C6EF1 /* ThaiSansNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ThaiSansNeue-Regular.ttf"; path = "../../../../Downloads/ThaiSans Neue v1.0/TrueType/ThaiSansNeue-Regular.ttf"; sourceTree = "<group>"; };
+		0D6C4F761FD1F1E2006C6EF1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0D6C4F781FD2BCDA006C6EF1 /* CreateNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewViewController.swift; sourceTree = "<group>"; };
+		0D71E3411FD2C08000C90138 /* ThaiSansNeue-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ThaiSansNeue-ExtraBold.ttf"; path = "../../../../Downloads/ThaiSans Neue v1.0/TrueType/ThaiSansNeue-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0D71E3431FD2C89F00C90138 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		1CEBFEE39AE2FFA7F2E19C72 /* Pods-Anti-biotic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anti-biotic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anti-biotic/Pods-Anti-biotic.release.xcconfig"; sourceTree = "<group>"; };
+		54EC617E0FD6F8379D8005BD /* Pods-Anti-biotic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anti-biotic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anti-biotic/Pods-Anti-biotic.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3FDAD11FD5568200BAAB42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A69D9B01FA9B0EC00C15058 /* DLRadioButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DLRadioButton.framework; sourceTree = "<group>"; };
+		7A69D9B51FA9BE7600C15058 /* summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summary.swift; sourceTree = "<group>"; };
+		7A69D9BD1FA9C27B00C15058 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		7A69D9BF1FA9C29200C15058 /* historyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewCell.swift; sourceTree = "<group>"; };
 		7AD3EC291FA8545900ACE3B1 /* Anti-biotic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anti-biotic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD3EC2C1FA8545900ACE3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AD3EC2E1FA8545900ACE3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +67,12 @@
 		7AD3EC331FA8545900ACE3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AD3EC361FA8545900ACE3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AD3EC381FA8545900ACE3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD3EC3E1FA8D24700ACE3B1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7AD3EC421FA8E67200ACE3B1 /* Anti-biotic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anti-biotic-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AD3EC431FA8E67300ACE3B1 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		7AD3EC441FA8E67300ACE3B1 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		7AD3EC461FA8E7BD00ACE3B1 /* newAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAccount.swift; sourceTree = "<group>"; };
+		FBE8F8309E82BC0B2A2E0F13 /* Pods_Anti_biotic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anti_biotic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +80,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A69D9B21FA9B0F800C15058 /* DLRadioButton.framework in Frameworks */,
+				A16432D2459D4CA289A5BBC1 /* Pods_Anti_biotic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D6C4F601FD1C5AF006C6EF1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0D71E3411FD2C08000C90138 /* ThaiSansNeue-ExtraBold.ttf */,
+				0D6C4F741FD1DC13006C6EF1 /* ThaiSansNeue-Regular.ttf */,
+				0D6C4F6E1FD1D823006C6EF1 /* bangna-new.ttf */,
+				0D6C4F6C1FD1D7CC006C6EF1 /* supermarket.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7AD3EC201FA8545900ACE3B1 = {
 			isa = PBXGroup;
 			children = (
+				7AD3EC411FA8E63600ACE3B1 /* DLRadioButton */,
 				7AD3EC2B1FA8545900ACE3B1 /* Anti-biotic */,
 				7AD3EC2A1FA8545900ACE3B1 /* Products */,
+				BB9563C938F843F164A1B7C8 /* Pods */,
+				F877BC1A513660D317078A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,52 @@
 		7AD3EC2B1FA8545900ACE3B1 /* Anti-biotic */ = {
 			isa = PBXGroup;
 			children = (
+				0D6C4F601FD1C5AF006C6EF1 /* Fonts */,
+				7A69D9B01FA9B0EC00C15058 /* DLRadioButton.framework */,
 				7AD3EC2C1FA8545900ACE3B1 /* AppDelegate.swift */,
 				7AD3EC2E1FA8545900ACE3B1 /* ViewController.swift */,
 				7AD3EC301FA8545900ACE3B1 /* Main.storyboard */,
 				7AD3EC331FA8545900ACE3B1 /* Assets.xcassets */,
 				7AD3EC351FA8545900ACE3B1 /* LaunchScreen.storyboard */,
 				7AD3EC381FA8545900ACE3B1 /* Info.plist */,
+				7AD3EC3E1FA8D24700ACE3B1 /* Question.swift */,
+				7AD3EC461FA8E7BD00ACE3B1 /* newAccount.swift */,
+				7A69D9B51FA9BE7600C15058 /* summary.swift */,
+				7A69D9BD1FA9C27B00C15058 /* historyViewController.swift */,
+				7A69D9BF1FA9C29200C15058 /* historyTableViewCell.swift */,
+				0D6C4F761FD1F1E2006C6EF1 /* LoginViewController.swift */,
+				0D6C4F781FD2BCDA006C6EF1 /* CreateNewViewController.swift */,
+				0D71E3431FD2C89F00C90138 /* FirstPageViewController.swift */,
+				7A3FDAD11FD5568200BAAB42 /* GoogleService-Info.plist */,
 			);
 			path = "Anti-biotic";
+			sourceTree = "<group>";
+		};
+		7AD3EC411FA8E63600ACE3B1 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3EC441FA8E67300ACE3B1 /* DLRadioButton.h */,
+				7AD3EC431FA8E67300ACE3B1 /* DLRadioButton.m */,
+				7AD3EC421FA8E67200ACE3B1 /* Anti-biotic-Bridging-Header.h */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		BB9563C938F843F164A1B7C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54EC617E0FD6F8379D8005BD /* Pods-Anti-biotic.debug.xcconfig */,
+				1CEBFEE39AE2FFA7F2E19C72 /* Pods-Anti-biotic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F877BC1A513660D317078A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8F8309E82BC0B2A2E0F13 /* Pods_Anti_biotic.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AD3EC3B1FA8545900ACE3B1 /* Build configuration list for PBXNativeTarget "Anti-biotic" */;
 			buildPhases = (
+				65E9DF81EA5E10ADE21BDC20 /* [CP] Check Pods Manifest.lock */,
 				7AD3EC251FA8545900ACE3B1 /* Sources */,
 				7AD3EC261FA8545900ACE3B1 /* Frameworks */,
 				7AD3EC271FA8545900ACE3B1 /* Resources */,
+				7A69D9B41FA9B0F800C15058 /* Embed Frameworks */,
+				947A0478AAE37FD9F20AE9CF /* [CP] Embed Pods Frameworks */,
+				AEB7D1ABFFE68F2165F76187 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +200,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Chaicharn Vijarnsatit";
 				TargetAttributes = {
 					7AD3EC281FA8545900ACE3B1 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +233,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D71E3421FD2C08000C90138 /* ThaiSansNeue-ExtraBold.ttf in Resources */,
+				7A3FDAD21FD5568200BAAB42 /* GoogleService-Info.plist in Resources */,
 				7AD3EC371FA8545900ACE3B1 /* LaunchScreen.storyboard in Resources */,
 				7AD3EC341FA8545900ACE3B1 /* Assets.xcassets in Resources */,
+				0D6C4F751FD1DC14006C6EF1 /* ThaiSansNeue-Regular.ttf in Resources */,
+				0D6C4F6D1FD1D7CD006C6EF1 /* supermarket.ttf in Resources */,
 				7AD3EC321FA8545900ACE3B1 /* Main.storyboard in Resources */,
+				0D6C4F6F1FD1D824006C6EF1 /* bangna-new.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65E9DF81EA5E10ADE21BDC20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anti-biotic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947A0478AAE37FD9F20AE9CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Anti-biotic/Pods-Anti-biotic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anti-biotic/Pods-Anti-biotic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB7D1ABFFE68F2165F76187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anti-biotic/Pods-Anti-biotic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7AD3EC251FA8545900ACE3B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6C4F771FD1F1E2006C6EF1 /* LoginViewController.swift in Sources */,
+				7AD3EC471FA8E7BD00ACE3B1 /* newAccount.swift in Sources */,
+				0D71E3441FD2C89F00C90138 /* FirstPageViewController.swift in Sources */,
+				7AD3EC3F1FA8D24700ACE3B1 /* Question.swift in Sources */,
+				7A69D9C01FA9C29200C15058 /* historyTableViewCell.swift in Sources */,
+				7A69D9B61FA9BE7600C15058 /* summary.swift in Sources */,
+				7A69D9BE1FA9C27B00C15058 /* historyViewController.swift in Sources */,
+				7AD3EC451FA8E67300ACE3B1 /* DLRadioButton.m in Sources */,
 				7AD3EC2F1FA8545900ACE3B1 /* ViewController.swift in Sources */,
 				7AD3EC2D1FA8545900ACE3B1 /* AppDelegate.swift in Sources */,
+				0D6C4F791FD2BCDA006C6EF1 /* CreateNewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +350,7 @@
 		7AD3EC391FA8545900ACE3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -223,7 +407,7 @@
 		7AD3EC3A1FA8545900ACE3B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -272,13 +456,25 @@
 		};
 		7AD3EC3C1FA8545900ACE3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EC617E0FD6F8379D8005BD /* Pods-Anti-biotic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8H6APU5NX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Anti-biotic",
+				);
 				INFOPLIST_FILE = "Anti-biotic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egco428.Anti-biotic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLRadioButton/Anti-biotic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +482,24 @@
 		};
 		7AD3EC3D1FA8545900ACE3B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CEBFEE39AE2FFA7F2E19C72 /* Pods-Anti-biotic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8H6APU5NX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Anti-biotic",
+				);
 				INFOPLIST_FILE = "Anti-biotic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egco428.Anti-biotic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLRadioButton/Anti-biotic-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
